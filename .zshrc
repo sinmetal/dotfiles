@@ -98,7 +98,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 export EDITOR='s -w'
 
 # antigen start
-source ~/src/dotfiles/antigen/antigen.zsh
+source ~/dotfiles/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
