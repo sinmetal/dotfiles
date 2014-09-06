@@ -59,13 +59,6 @@ export GRADLE_OPTS="-Dorg.gradle.daemon=true"
 
 #export _JAVA_OPTIONS="-Dfile.encoding=UTF-8"
 
-export GIT=~/Dropbox/repository
-
-export GOROOT=/usr/local/go
-
-#gae/go root
-#export GOROOT=~/bin/go_appengine/
-
 export GOBIN=$GOROOT/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
@@ -73,13 +66,13 @@ export GOPATH=~/bin/gopath
 export GOENVGOROOT=~/.goenvs
 export GOENVTARGET=~/bin
 export GOENVHOME=~/workspace/goenv
-export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030
+export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
-export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk-1.9.3
-export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
+#export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk-1.9.7
+#export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
 export PATH=$PATH:/Users/shingoishimura/workspace/java20131116/gcp-study/tools/deploy
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
-export APPENGINE_API_SERVER=~/bin/go_appengine/api_server.py
+#export APPENGINE_API_SERVER=~/bin/go_appengine/api_server.py
 export PHANTOMJS_BIN=/Users/shingoishimura/bin/phantomjs-1.9.0-macosx/bin/phantomjs
 export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS
 export PATH=$PATH:$GRADLE_HOME/bin
@@ -87,8 +80,9 @@ export PATH=$PATH:$GOENVTARGET
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH
 export PATH=$PATH:~/bin
-export PATH=$PATH:~/bin/google_appengine
-export PATH=$PATH:~/bin/go_appengine/
+export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
+#export PATH=$PATH:~/bin/google_appengine
+#export PATH=$PATH:~/bin/go_appengine/
 export PATH=$PATH:~/bin/goenv
 export PATH=$PATH:$PHANTOMJS_BIN
 export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools
