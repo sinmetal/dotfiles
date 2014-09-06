@@ -1,6 +1,6 @@
 [user]
 	name = Shingo Ishimura
-	email = metal.tie@gmail.com
+	email = shingo.ishimura@topgate.co.jp
 [core]
 	excludesfile = /Users/shingoishimura/.gitignore_global
 	precomposeunicode = true
