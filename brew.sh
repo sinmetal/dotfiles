@@ -17,7 +17,6 @@ brew install svn
 
 brew install vim
 brew install zsh
-brew install iTerms
 
 brew install ant
 brew install groovy
@@ -47,13 +46,15 @@ brew cask install skype
 brew cask install dropbox
 brew cask install kobito
 brew cask install skitch
-brew cask install dash
+# 課金があるので、AppStoreから入れる
+# brew cask install dash
 brew cask install sublime-text
 brew cask install sophos-anti-virus-home-edition
 brew cask install xtrafinder
 brew cask install iterm2
 brew cask install adobe-reader
 brew cask install libreoffice
+brew cask install macvim
 
 brew cask install java6
 brew cask install java7
