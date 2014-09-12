@@ -70,10 +70,10 @@ export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
 #export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk-1.9.7
 #export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
-export PATH=$PATH:/Users/shingoishimura/workspace/java20131116/gcp-study/tools/deploy
+#export PATH=$PATH:/Users/shingoishimura/workspace/java20131116/gcp-study/tools/deploy
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
 #export APPENGINE_API_SERVER=~/bin/go_appengine/api_server.py
-export PHANTOMJS_BIN=/Users/shingoishimura/bin/phantomjs-1.9.0-macosx/bin/phantomjs
+#export PHANTOMJS_BIN=/Users/shingoishimura/bin/phantomjs-1.9.0-macosx/bin/phantomjs
 export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS
 export PATH=$PATH:$GRADLE_HOME/bin
 export PATH=$PATH:$GOENVTARGET
@@ -87,7 +87,7 @@ export PATH=$PATH:~/bin/goenv
 export PATH=$PATH:$PHANTOMJS_BIN
 export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools
 export PATH=~/.nodebrew/current/bin:$PATH
-export PATH=${PATH}:~/bin/gcutil-1.9.1
+#export PATH=${PATH}:~/bin/gcutil-1.9.1
 export PATH=$PATH:/usr/local/mysql/bin
 export EDITOR='s -w'
 
@@ -115,7 +115,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 
 ##
-# Your previous /Users/shingoishimura/.bash_profile file was backed up as /Users/shingoishimura/.bash_profile.macports-saved_2013-06-25_at_15:36:05
+# Your previous /Users/sinmetal/.bash_profile file was backed up as /Users/sinmetal/.bash_profile.macports-saved_2013-06-25_at_15:36:05
 ##
 
 # MacPorts Installer addition on 2013-06-25_at_15:36:05: adding an appropriate PATH variable for use with MacPorts.
@@ -123,10 +123,10 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # Finished adapting your PATH environment variable for use with MacPorts.
 
 # The next line updates PATH for the Google Cloud SDK.
-export PATH=/Users/shingoishimura/bin/google-cloud-sdk/bin:$PATH
+export PATH=/Users/sinmetal/bin/google-cloud-sdk/bin:$PATH
 
 # The next line enables bash completion for gcloud.
-source /Users/shingoishimura/bin/google-cloud-sdk/arg_rc
+source /Users/sinmetal/bin/google-cloud-sdk/arg_rc
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
