@@ -23,7 +23,7 @@ fi
 #export PLAY_HOME=~/work/play-2.0.4
 
 export DART_SDK=/Applications/dart/dart-sdk
-#export GOROOT=~/work/bin/go
+export GOROOT=~/bin/google-cloud-sdk/platform/google_appengine
 export NACL_SDK_ROOT=~/nacl_sdk/pepper_31
 
 if [ -s /opt/boxen/homebrew/bin/phantomjs ]; then
