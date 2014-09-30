@@ -55,6 +55,7 @@ brew cask install iterm2
 brew cask install adobe-reader
 brew cask install libreoffice
 brew cask install macvim
+brew cask install intellij-idea-ce
 
 brew cask install java6
 brew cask install java7
