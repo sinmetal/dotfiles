@@ -45,6 +45,7 @@ brew cask install google-hangouts
 brew cask install skype
 brew cask install dropbox
 brew cask install kobito
+brew cask install marsedit
 brew cask install skitch
 # 課金があるので、AppStoreから入れる
 # brew cask install dash
@@ -59,3 +60,5 @@ brew cask install intellij-idea-ce
 
 brew cask install java6
 brew cask install java7
+
+brew cask alfred link 
