@@ -23,7 +23,7 @@ fi
 #export PLAY_HOME=~/work/play-2.0.4
 
 export DART_SDK=/Applications/dart/dart-sdk
-export GOROOT=~/bin/google-cloud-sdk/platform/google_appengine
+export GOROOT=~/bin/google-cloud-sdk/platform/google_appengine/goroot
 export NACL_SDK_ROOT=~/nacl_sdk/pepper_31
 
 if [ -s /opt/boxen/homebrew/bin/phantomjs ]; then
@@ -63,12 +63,13 @@ export GOBIN=$GOROOT/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
 export GOPATH=~/bin/gopath
+export GOARCH=amd64
 export GOENVGOROOT=~/.goenvs
 export GOENVTARGET=~/bin
 export GOENVHOME=~/workspace/goenv
 export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
-#export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk-1.9.7
+export APPENGINE_JAVA_SDK=~/bin/google-cloud-sdk/platform/appengine-java-sdk
 #export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
 #export PATH=$PATH:/Users/shingoishimura/workspace/java20131116/gcp-study/tools/deploy
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
@@ -148,6 +149,7 @@ setopt hist_ignore_space
 alias ll="ls -l"
 alias ls="ls -G"
 alias la="ls -laGF"
+alias ij="open -a /opt/homebrew-cask/Caskroom/intellij-idea-ce/13.1.4b/IntelliJ\ IDEA\ 13\ CE.app"
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
