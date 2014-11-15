@@ -8,6 +8,8 @@ brew upgrade
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
+# brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+
 brew install wget
 brew install tree
 
