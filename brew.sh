@@ -30,6 +30,8 @@ brew install docker
 brew install phantomjs
 brew install nodebrew
 
+brew install mysql
+
 brew install go
 
 brew cask install eclipse-ide
