@@ -13,7 +13,7 @@ elif [ -d ~/work/android-sdk-mac_x86 ]; then
   export ANDROID_SDK_ROOT=~/work/android-sdk-mac_x86
 fi
 
-#export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 #xport ANDROID_SDK_HOME=$ANDROID_SDK_ROOT
 #export ANDROID_HOME=$ANDROID_SDK_HOME
@@ -23,7 +23,7 @@ fi
 #export PLAY_HOME=~/work/play-2.0.4
 
 export DART_SDK=/Applications/dart/dart-sdk
-export GOROOT=~/bin/google-cloud-sdk/platform/google_appengine/goroot
+export GOROOT=/usr/local/bin/go
 export NACL_SDK_ROOT=~/nacl_sdk/pepper_31
 
 if [ -s /opt/boxen/homebrew/bin/phantomjs ]; then
@@ -62,8 +62,7 @@ export GRADLE_OPTS="-Dorg.gradle.daemon=true"
 export GOBIN=$GOROOT/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
-export GOPATH=~/bin/gopath
-export GOARCH=amd64
+export GOPATH=$HOME/go
 export GOENVGOROOT=~/.goenvs
 export GOENVTARGET=~/bin
 export GOENVHOME=~/workspace/goenv
@@ -79,7 +78,7 @@ export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS
 export PATH=$PATH:$GRADLE_HOME/bin
 export PATH=$PATH:$GOENVTARGET
 export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
 #export PATH=$PATH:~/bin/google_appengine
@@ -90,6 +89,7 @@ export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tool
 export PATH=~/.nodebrew/current/bin:$PATH
 #export PATH=${PATH}:~/bin/gcutil-1.9.1
 export PATH=$PATH:/usr/local/mysql/bin
+export PATH=/usr/local/bin:$PATH
 export EDITOR='s -w'
 
 # antigen start
