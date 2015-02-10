@@ -32,7 +32,7 @@ brew install nodebrew
 
 brew install mysql
 
-brew install go
+brew install go --cross-compile-all
 
 brew cask install eclipse-ide
 brew cask install webstorm
@@ -67,3 +67,6 @@ brew cask install java6
 brew cask install java7
 
 brew cask alfred link 
+
+brew link openssl --force
+brew link git --force
