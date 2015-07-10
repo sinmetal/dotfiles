@@ -40,6 +40,10 @@ brew cask install webstorm
 brew install openssl
 brew install nkf
 
+brew install docker
+brew link docker
+brew install boot2docker
+
 brew cask install google-chrome
 brew cask install firefox
 brew cask install sourcetree
