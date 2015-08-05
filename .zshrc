@@ -69,6 +69,7 @@ export GOENVHOME=~/workspace/goenv
 # export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
 export PATH=$PATH:~/bin/go_appengine
+export PATH=$PATH:~/bin/gopath/bin/
 export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk
 export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
