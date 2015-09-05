@@ -23,7 +23,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 #export PLAY_HOME=~/work/play-2.0.4
 
 export DART_SDK=/Applications/dart/dart-sdk
-export GOROOT=/usr/local/bin/go
+export GOROOT=/usr/local/opt/go/libexec
 export NACL_SDK_ROOT=~/nacl_sdk/pepper_31
 
 if [ -s /opt/boxen/homebrew/bin/phantomjs ]; then
