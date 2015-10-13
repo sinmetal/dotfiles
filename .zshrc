@@ -90,6 +90,7 @@ export PATH=~/.nodebrew/current/bin:$PATH
 export PATH=$PATH:/usr/local/mysql/bin
 export PATH=/usr/local/bin:$PATH
 export EDITOR='s -w'
+export MAVEN_REPOSITORY=~/.m2
 
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
