@@ -12,6 +12,7 @@ brew tap caskroom/versions
 
 brew install wget
 brew install tree
+brew install ag
 
 brew install git
 brew install hg
