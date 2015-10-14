@@ -126,9 +126,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 # The next line updates PATH for the Google Cloud SDK.
 export PATH=/Users/sinmetal/bin/google-cloud-sdk/bin:$PATH
 
-# The next line enables bash completion for gcloud.
-source /Users/sinmetal/bin/google-cloud-sdk/arg_rc
-
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
