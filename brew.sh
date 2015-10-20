@@ -66,6 +66,7 @@ brew cask install adobe-reader
 brew cask install libreoffice
 brew cask install macvim
 brew cask install intellij-idea-ce
+brew cask install atom
 
 brew cask install java
 brew cask install java6
