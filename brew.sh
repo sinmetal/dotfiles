@@ -35,6 +35,9 @@ brew install mysql
 
 brew install go --cross-compile-all
 
+brew install ghostscript
+brew install imagemagick
+
 brew cask install eclipse-ide
 brew cask install webstorm
 
