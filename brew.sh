@@ -74,7 +74,6 @@ brew cask install intellij-idea-ce
 brew cask install atom
 
 brew cask install java
-brew cask install java6
 brew cask install java7
 
 brew cask alfred link 
