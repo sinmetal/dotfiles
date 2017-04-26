@@ -44,6 +44,8 @@ brew cask install webstorm
 brew install openssl
 brew install nkf
 
+brew install yarn
+
 brew install docker
 brew link docker
 brew install boot2docker
