@@ -43,6 +43,8 @@ brew cask install webstorm
 brew install openssl
 brew install nkf
 
+brew install colordiff
+
 brew install yarn
 
 brew install docker
