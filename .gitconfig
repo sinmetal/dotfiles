@@ -4,7 +4,7 @@
 [core]
 	excludesfile = /Users/sinmetal/.gitignore_global
 	precomposeunicode = true
-	editor = subl -w
+	editor = code --wait
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
@@ -17,3 +17,5 @@
         autocorrect = 1
 [alias]
 	gofmt = !echo $(git diff --cached --name-only --diff-filter=ACM | grep .go) | xargs gofmt -w -l | xargs git add
+[commit]
+	template = /Users/sinmetal/.stCommitMsg
