@@ -149,6 +149,7 @@ alias ls="ls -G"
 alias la="ls -laGF"
 alias ij="open -a /Applications/IntelliJ\ IDEA\ CE.app"
 alias gogland="open -a /Applications/Gogland\\ 1.0\\ EAP.app"
+alias code="open -n -b 'com.microsoft.VSCode'"
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
