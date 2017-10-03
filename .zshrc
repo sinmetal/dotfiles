@@ -147,7 +147,8 @@ setopt hist_ignore_space
 alias ll="ls -l"
 alias ls="ls -G"
 alias la="ls -laGF"
-alias ij="open -a /opt/homebrew-cask/Caskroom/intellij-idea-ce/13.1.4b/IntelliJ\ IDEA\ 13\ CE.app"
+alias ij="open -a /Applications/IntelliJ\ IDEA\ CE.app"
+alias gogland="open -a /Applications/Gogland\\ 1.0\\ EAP.app"
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
