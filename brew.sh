@@ -7,7 +7,7 @@ brew upgrade
 
 brew tap caskroom/cask
 
-brew cask install java # javaが必要なものが多いので最初にインストールする
+brew cask install java8 # javaが必要なものが多いので最初にインストールする
 
 brew install wget
 brew install tree
