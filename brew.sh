@@ -58,15 +58,12 @@ brew cask install sourcetree
 brew cask install google-japanese-ime
 brew cask install alfred
 brew cask install google-hangouts
-brew cask install skype
 brew cask install dropbox
 brew cask install marsedit
 brew cask install skitch
 # 課金があるので、AppStoreから入れる
 # brew cask install dash
-brew cask install xtrafinder
 brew cask install iterm2
-brew cask install libreoffice
 brew cask install macvim
 brew cask install intellij-idea-ce
 brew cask install atom
