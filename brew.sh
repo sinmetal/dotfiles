@@ -6,6 +6,7 @@ brew update
 brew upgrade
 
 brew tap caskroom/cask
+brew tap caskroom/versions
 
 brew cask install java8 # javaが必要なものが多いので最初にインストールする
 
