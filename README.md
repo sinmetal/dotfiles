@@ -10,6 +10,6 @@ dotfiles
 
 ## Visual Studio Codeを `code` で起動できるようにする
 
-* Visual Studio Code上で、 `command + p`
+* Visual Studio Code上で、 `⇧⌘P`
 * `shell` で検索
 * `PATH内にcodeコマンドをインストール`
