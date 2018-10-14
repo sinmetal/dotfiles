@@ -66,6 +66,7 @@ export GOPATH=$HOME/go
 export GOENVGOROOT=~/.goenvs
 export GOENVTARGET=~/bin
 export GOENVHOME=~/workspace/goenv
+export GO111MODULE=on
 # export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
 export PATH=$PATH:~/bin/go_appengine
@@ -81,7 +82,7 @@ export PATH=$PATH:$GOENVTARGET
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/bin
-#export PATH=$PATH:~/bin/go_appengine/
+export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
 export PATH=$PATH:~/bin/goenv
 export PATH=$PATH:$PHANTOMJS_BIN
 export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools
@@ -150,3 +151,9 @@ alias ij="open -a /opt/homebrew-cask/Caskroom/intellij-idea-ce/13.1.4b/IntelliJ\
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
