@@ -35,6 +35,9 @@ brew install mysql
 
 brew install go --cross-compile-all
 
+brew install pyenv
+brew install pipenv
+
 brew install ghostscript
 brew install imagemagick
 
