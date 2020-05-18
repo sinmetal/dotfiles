@@ -92,6 +92,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=/usr/local/bin:$PATH
 export EDITOR='s -w'
 export MAVEN_REPOSITORY=~/.m2
+export CLOUDSDK_PYTHON=/usr/bin/python
 
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
@@ -158,8 +159,13 @@ alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
 
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /Users/sinmetal/bin/vault vault
+
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+eval "$(direnv hook zsh)"
