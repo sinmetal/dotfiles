@@ -108,11 +108,6 @@ antigen theme gnzh
 antigen apply
 # antigen end
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-
 ##
 # Your previous /Users/shingoishimura/.bash_profile file was backed up as /Users/shingoishimura/.bash_profile.macports-saved_2013-06-04_at_16:48:03
 ##
