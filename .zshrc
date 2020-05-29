@@ -13,8 +13,6 @@ elif [ -d ~/work/android-sdk-mac_x86 ]; then
   export ANDROID_SDK_ROOT=~/work/android-sdk-mac_x86
 fi
 
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-
 #xport ANDROID_SDK_HOME=$ANDROID_SDK_ROOT
 #export ANDROID_HOME=$ANDROID_SDK_HOME
 #export ANDROID_NDK_ROOT=~/android-ndk-r9b
