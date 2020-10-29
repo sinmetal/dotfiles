@@ -9,6 +9,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 brew cask install java8 # javaが必要なものが多いので最初にインストールする
+brew install python@3.8
 
 brew install wget
 brew install tree
@@ -41,15 +42,14 @@ brew install pipenv
 brew install ghostscript
 brew install imagemagick
 
-brew cask install eclipse-ide
-brew cask install webstorm
-
 brew install openssl
 brew install nkf
 
 brew install colordiff
 
 brew install yarn
+
+brew install protobuf
 
 brew install docker
 brew link docker
@@ -68,7 +68,6 @@ brew cask install skitch
 # brew cask install dash
 brew cask install iterm2
 brew cask install macvim
-brew cask install intellij-idea-ce
 brew cask install atom
 brew cask install slack
 
