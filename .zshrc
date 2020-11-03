@@ -21,7 +21,6 @@ fi
 #export PLAY_HOME=~/work/play-2.0.4
 
 export DART_SDK=/Applications/dart/dart-sdk
-export GOROOT=/usr/local/opt/go/libexec
 export NACL_SDK_ROOT=~/nacl_sdk/pepper_31
 
 if [ -s /opt/boxen/homebrew/bin/phantomjs ]; then
@@ -61,14 +60,10 @@ export GOBIN=$GOROOT/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
 export GOPATH=$HOME/go
-export GOENVGOROOT=~/.goenvs
-export GOENVTARGET=~/bin
-export GOENVHOME=~/workspace/goenv
 export GO111MODULE=on
 # export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
 export PATH=$PATH:~/bin/go_appengine
-export PATH=$PATH:~/bin/gopath/bin/
 export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk
 export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
@@ -76,9 +71,6 @@ export PATH=$PATH:$ANDROID_HOME/sdk/tools
 #export PHANTOMJS_BIN=/Users/shingoishimura/bin/phantomjs-1.9.0-macosx/bin/phantomjs
 export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS
 export PATH=$PATH:$GRADLE_HOME/bin
-export PATH=$PATH:$GOENVTARGET
-export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
 export PATH=$PATH:~/bin/goenv
@@ -146,8 +138,6 @@ setopt hist_ignore_space
 alias ll="ls -l"
 alias ls="ls -G"
 alias la="ls -laGF"
-alias ij="open -a /Applications/IntelliJ\ IDEA\ CE.app"
-alias gogland="open -a /Applications/Gogland\\ 1.0\\ EAP.app"
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
@@ -155,10 +145,9 @@ alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /Users/sinmetal/bin/vault vault
 
+eval "$(direnv hook zsh)"
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/sinmental/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmental/bin/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
-
-eval "$(direnv hook zsh)"
+if [ -f '/Users/sinmental/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmental/bin/google-cloud-sdk/completion.zsh.inc'; fi
