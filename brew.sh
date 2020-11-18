@@ -13,6 +13,7 @@ brew install java11 # javaが必要なものが多いので最初にインスト
 brew install wget
 brew install tree
 brew install ag
+brew install jq
 
 brew install git
 brew install hg

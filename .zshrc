@@ -56,7 +56,7 @@ export GRADLE_OPTS="-Dorg.gradle.daemon=true"
 
 #export _JAVA_OPTIONS="-Dfile.encoding=UTF-8"
 
-export GOBIN=$GOROOT/bin
+export GOBIN=$HOME/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
 export GOPATH=$HOME/go
