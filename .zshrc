@@ -147,7 +147,7 @@ complete -o nospace -C /Users/sinmetal/bin/vault vault
 
 eval "$(direnv hook zsh)"
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sinmental/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmental/bin/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/sinmental/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmental/bin/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
