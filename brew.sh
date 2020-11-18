@@ -57,7 +57,6 @@ brew install boot2docker
 
 brew cask install google-chrome
 brew cask install firefox
-brew cask install sourcetree
 brew cask install google-japanese-ime
 brew cask install alfred
 brew cask install dropbox
