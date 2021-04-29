@@ -1,6 +1,7 @@
 [user]
 	name = sinmetal
 	email = sinmetal@sinmetalcraft.jp
+	signingkey = 879612B91BFB3579
 [core]
 	excludesfile = /Users/sinmetal/.gitignore_global
 	precomposeunicode = true
@@ -18,6 +19,7 @@
 [alias]
 	gofmt = !echo $(git diff --cached --name-only --diff-filter=ACM | grep .go) | xargs gofmt -w -l | xargs git add
 [commit]
+	gpgsign = true
 [credential "https://source.developers.google.com"]
 	helper = gcloud.sh
 [url "https://d9bb739989d5023e447f6a49776177b2fd8f5346:x-oauth-basic@github.com/"]
