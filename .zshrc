@@ -72,9 +72,10 @@ export PATH=$PATH:$ANDROID_HOME/sdk/tools
 export PATH=$PATH:/Applications/MacVim.app/Contents/MacOS
 export PATH=$PATH:$GRADLE_HOME/bin
 export PATH=$PATH:~/bin
-export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
+#export PATH=$PATH:~/bin/google-cloud-sdk/platform/google_appengine
 export PATH=$PATH:~/bin/goenv
 export PATH=$PATH:$PHANTOMJS_BIN
+export PATH=$PATH:/usr/local/bin/python3
 export PATH=$PATH:/Applications/adt-bundle-mac-x86_64-20130522/sdk/platform-tools
 export PATH=~/.nodebrew/current/bin:$PATH
 #export PATH=${PATH}:~/bin/gcutil-1.9.1
@@ -82,7 +83,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=/usr/local/bin:$PATH
 export EDITOR='s -w'
 export MAVEN_REPOSITORY=~/.m2
-export CLOUDSDK_PYTHON=/usr/bin/python
+export CLOUDSDK_PYTHON=/usr/local/bin/python3
 
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
@@ -141,6 +142,8 @@ alias la="ls -laGF"
 alias emacs="open -a Emacs"
 alias pwdweb="python -m SimpleHTTPServer 8989" 
 alias mvneclipse='mvn clean eclipse:clean eclipse:eclipse -DdownloadSources=true'
+alias python=/usr/bin/python3
+alias pip=/usr/bin/pip3
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /Users/sinmetal/bin/vault vault
