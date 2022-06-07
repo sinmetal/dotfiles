@@ -22,5 +22,4 @@
 	gpgsign = true
 [credential "https://source.developers.google.com"]
 	helper = gcloud.sh
-[url "https://d9bb739989d5023e447f6a49776177b2fd8f5346:x-oauth-basic@github.com/"]
-	insteadOf = https://github.com/
+
