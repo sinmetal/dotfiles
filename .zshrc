@@ -63,6 +63,7 @@ export GOPATH=$HOME/go
 export GO111MODULE=on
 # export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
+export PATH=$PATH:/opt/homebrew/bin
 export PATH=$PATH:~/bin/go_appengine
 export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk
 export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
@@ -83,7 +84,7 @@ export PATH=$PATH:/usr/local/mysql/bin
 export PATH=/usr/local/bin:$PATH
 export EDITOR='s -w'
 export MAVEN_REPOSITORY=~/.m2
-export CLOUDSDK_PYTHON=/usr/local/bin/python3
+export CLOUDSDK_PYTHON=/usr/bin/python3
 
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
@@ -150,7 +151,7 @@ complete -o nospace -C /Users/sinmetal/bin/vault vault
 
 eval "$(direnv hook zsh)"
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/sinmetal/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sinmetal/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmetal/bin/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f '/Users/sinmetal/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sinmetal/google-cloud-sdk/completion.zsh.inc'; fi
