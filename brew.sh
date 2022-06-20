@@ -49,6 +49,8 @@ brew install colordiff
 
 brew install yarn
 
+brew install gpg
+
 brew install protobuf
 brew install direnv
 
@@ -56,20 +58,20 @@ brew install docker
 brew link docker
 brew install boot2docker
 
-brew cask install google-chrome
-brew cask install firefox
-brew cask install google-japanese-ime
-brew cask install alfred
-brew cask install dropbox
-brew cask install marsedit
-brew cask install skitch
+brew install google-chrome
+brew install firefox
+brew install google-japanese-ime
+brew install alfred
+brew install dropbox
+brew install marsedit
+brew install skitch
 
 # 課金があるので、AppStoreから入れる
 # brew cask install dash
 
-brew cask install iterm2
-brew cask install slack
-brew cask install visual-studio-code
+brew install iterm2
+brew install slack
+brew install visual-studio-code
 
 brew unlink openssl && brew link openssl
 brew unlink git && brew link git
