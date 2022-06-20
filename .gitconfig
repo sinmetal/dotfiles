@@ -1,7 +1,7 @@
 [user]
 	name = sinmetal
 	email = sinmetal@sinmetalcraft.jp
-	signingkey = 879612B91BFB3579
+	signingkey = 093F3A6AF028F549
 [core]
 	excludesfile = /Users/sinmetal/.gitignore_global
 	precomposeunicode = true

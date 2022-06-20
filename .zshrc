@@ -86,6 +86,8 @@ export EDITOR='s -w'
 export MAVEN_REPOSITORY=~/.m2
 export CLOUDSDK_PYTHON=/usr/bin/python3
 
+export GPG_TTY=$TTY
+
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
 
