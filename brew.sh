@@ -26,6 +26,8 @@ brew install ant
 brew install groovy
 brew install gradle
 brew install maven
+brew install npm
+brew install terraform
 
 brew install docker
 
