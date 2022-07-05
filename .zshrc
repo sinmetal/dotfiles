@@ -56,6 +56,8 @@ export GRADLE_OPTS="-Dorg.gradle.daemon=true"
 
 #export _JAVA_OPTIONS="-Dfile.encoding=UTF-8"
 
+export JAVA_HOME=/opt/homebrew/Cellar/openjdk/18.0.1.1
+
 export GOBIN=$HOME/bin
 export GOENVTARGET=~/bin/goenv
 export GRADLE_HOME=/usr/local/gradle-1.4
@@ -64,9 +66,6 @@ export GO111MODULE=on
 # export ANDROID_HOME=~/bin/adt-bundle-mac-x86_64-20131030/sdk
 
 export PATH=$PATH:/opt/homebrew/bin
-export PATH=$PATH:~/bin/go_appengine
-export APPENGINE_JAVA_SDK=~/bin/appengine-java-sdk
-export PATH=$PATH:$APPENGINE_JAVA_SDK/bin
 export PATH=$PATH:$ANDROID_HOME/sdk/tools
 #export APPENGINE_API_SERVER=~/bin/go_appengine/api_server.py
 #export PHANTOMJS_BIN=/Users/shingoishimura/bin/phantomjs-1.9.0-macosx/bin/phantomjs

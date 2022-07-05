@@ -7,7 +7,7 @@ brew upgrade
 
 brew tap homebrew/cask
 
-brew install java11 # javaが必要なものが多いので最初にインストールする
+brew install openjdk
 # brew install python@3.8
 
 brew install wget
