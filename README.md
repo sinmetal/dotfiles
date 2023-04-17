@@ -46,7 +46,7 @@ diff .zshrc ~/.zshrc
 * `shell` で検索
 * `PATH内にcodeコマンドをインストール`
 
-## Git　Commit 署名
+## Git Commit 署名
 
 GPG Keyの生成
 https://docs.github.com/ja/authentication/managing-commit-signature-verification/about-commit-signature-verification
