@@ -60,9 +60,7 @@ brew install docker
 brew link docker
 brew install boot2docker
 
-brew install google-chrome
-brew install firefox
-brew install google-japanese-ime
+# brew install google-japanese-ime
 brew install alfred
 brew install dropbox
 brew install marsedit

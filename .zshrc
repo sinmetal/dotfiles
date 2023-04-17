@@ -91,15 +91,25 @@ export GPG_TTY=$TTY
 # antigen start
 source ~/dotfiles/antigen/antigen.zsh
 
+# Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
-# Terminalでの入力に色がつく http://blog.glidenote.com/blog/2012/12/15/zsh-syntax-highlighting/
-antigen bundle zsh-users/zsh-syntax-highlighting
-# mvnで入力補完が効くようになる https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#mvn
-antigen bundle mvn
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle heroku
+antigen bundle pip
+antigen bundle lein
+antigen bundle command-not-found
 
-antigen theme gnzh
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+antigen theme robbyrussell
+
+# Tell Antigen that you're done.
 antigen apply
+
 # antigen end
 
 ##

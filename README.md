@@ -46,6 +46,14 @@ diff .zshrc ~/.zshrc
 * `shell` で検索
 * `PATH内にcodeコマンドをインストール`
 
+## Git　Commit 署名
+
+GPG Keyの生成
+https://docs.github.com/ja/authentication/managing-commit-signature-verification/about-commit-signature-verification
+
+Gitに鍵を伝える
+https://docs.github.com/ja/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key
+
 ## GOPRIVATE
 
 ```
