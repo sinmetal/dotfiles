@@ -11,9 +11,7 @@ git submodule init
 git submodule update
 ```
 
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
+install homebrew https://brew.sh/index_ja
 
 ```
 ./brew.sh
